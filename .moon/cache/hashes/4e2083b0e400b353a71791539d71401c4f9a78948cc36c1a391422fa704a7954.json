@@ -1,0 +1,1 @@
+[{"hooks":{"commit-msg":["bunx --no commitlint --edit $1"]},"vcs":"git"}]

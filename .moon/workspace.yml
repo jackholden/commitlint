@@ -1,0 +1,6 @@
+vcs:
+  manager: "git"
+  syncHooks: true
+  hooks:
+    commit-msg:
+      - bunx --no commitlint --edit $1
